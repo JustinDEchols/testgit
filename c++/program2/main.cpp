@@ -1,8 +1,12 @@
 #include <iostream>
+#include <string>
 
-int main(void)
+int main()
 {
-	std::cout << "hello world" << std::endl;
+	std::cout << "Hello!, what is your name?" << std::endl;
+	std::string name;
+	getline(std::cin, name);
+	std::cout << "Nice to meet you " << name << std::endl;
 
 }
 
