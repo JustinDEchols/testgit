@@ -1,1 +1,12 @@
-here is some sample text
+tutorial on adding files to github repository
+
+To add file: git add (file names)
+example: git add test.txt
+
+To check status: git status
+
+To commit: git commit -m "comment" filename
+example: git commit -m "first commit" test.txt
+
+To actually put on github: git push -u origin master
+
